@@ -30,7 +30,7 @@ const App = () => {
 
     const body = { user, customerEmail, customerQuery };
 
-    fetch("http://localhost:3001/", {
+    fetch("https://chattulika.herokuapp.com/", {
       method: "POST",
       body: JSON.stringify(body),
       headers: {
