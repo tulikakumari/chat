@@ -122,7 +122,7 @@ const App = () => {
           </form>
         ) : (
           <div className="chat-disabled">
-            <span>Chat has ended.</span>
+            <span>Chat has ended. Please check your inbox - spam and promotions.</span>
           </div>
         )}
       </div>
